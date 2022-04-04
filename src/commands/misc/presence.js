@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 module.exports.run = async (client, message, args) => {
-	const botOwnerID = 497515233104101376;
+	const botOwnerID = 1;
 	if (message.author.id == botOwnerID) {
 		if (!args) return;
 		client.user.setActivity(args.toString(), { type: 'PLAYING' });
